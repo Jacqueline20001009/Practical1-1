@@ -11,7 +11,7 @@ char Human::makeMove(){
     bool MakeChoice=false;
     while (MakeChoice==false)
     {
-        cout<<"Please enter your choice:";
+        cout<<"Enter move: ";
         cin>>input;
         if (input=='R'|| input=='P'|| input=='S')
         {
