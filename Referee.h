@@ -8,7 +8,7 @@ class Referee{
     
    public: 
     Referee();
-    char Joiner(Human player1,Computer player2);//player1 is computer term and player2 is Human term
+    char refGame(Human player1,Computer player2);//player1 is computer term and player2 is Human term
     ~Referee();
     
 

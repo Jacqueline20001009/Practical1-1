@@ -11,7 +11,7 @@ Referee AreFeree;
 
 for (int i = 0; i < 10; i++)
 {
-    cout<<AreFeree.Joiner(player1,player2)<<endl;
+    cout<<AreFeree.refGame(player1,player2)<<endl;
     
 }
 return 0;

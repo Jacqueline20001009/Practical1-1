@@ -8,7 +8,7 @@ Referee::Referee(){
 
     
 }
-char Referee::Joiner(Human player1,Computer player2){
+char Referee::refGame(Human player1,Computer player2){
     char result=' ';
     char N1= player1.makeMove();
     char N2=player2.makeMove();
